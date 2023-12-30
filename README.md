@@ -10,7 +10,7 @@ The data comprises two experiments conducted at Tel-Aviv University. In these ex
 
 **True completion:** `You praised the banker.`
 
-**False completion:** `The banker praised you.
+**False completion:** `The banker praised you.`
 
 The sentences were categorized into different tasks based on their linguistic properties. We present them here for the sake of completeness, without delving deep into linguistic theory.
 
