@@ -4,13 +4,21 @@ This is the code for "Understanding Cognitive Skills Development in Large Langua
 
 # Data
 
-The data comprises two experiments conducted at Tel Aviv University. In these experiments, participants were presented with various sentences, followed by two options for completion that gauged their comprehension of the given sentence. For instance:
+The data comprises two experiments conducted at Tel-Aviv University. In these experiments,named Gordon and Naama (after the researchers that conducted them), participants were presented with various sentences, followed by two options for completion that gauged their comprehension of the given sentence. For instance:
 
-Sentence: "The banker that you praised climbed the mountain just outside of town before it snowed."
-True completion: "You praised the banker."
-False completion: "The banker praised you."
+**Sentence:** `The banker that you praised climbed the mountain just outside of town before it snowed.`
 
-It is important to note that prior to conducting our experiment and testing, we had to preprocess the data in order to construct the two completions and to appropriately tag them as either True or False.
+**True completion:** `You praised the banker.`
+
+**False completion:** `The banker praised you.
+
+The sentences were categorized into different tasks based on their linguistic properties. We present them here for the sake of completeness, without delving deep into linguistic theory.
+
+The linguistic tasks are:
+-**Gordon experiment:** Object Descriptive, Object Name, Object Pronoun, Object Relative, Subject Descriptive, Subject Name, Subject Pronoun, Subject Relative.
+-**Naama experiment:** S-V Animate, S-V Inanimate, F-G Animate, F-G Inanimate.
+
+We received the data from the experiments in raw JSON format, containing all the parameters gathered from each experiment. In order to conduct our experiment, we had to preprocess the data to gather the sentences for each group and prepare the true and false completions (so that the data would resemble the example above).
 
 
 # Usage
